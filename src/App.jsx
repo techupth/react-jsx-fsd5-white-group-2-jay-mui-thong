@@ -19,12 +19,16 @@ function IntroSection() {
     link: "article-link",
   };
   return (
-    <div className="container">
-      <h3 className="title">TechUp Thailand</h3>
-      <p className="body">
+    <div className="article">
+      <h3 className="article-title">TechUp Thailand</h3>
+      <p className="article-body">
         เตรียมพบกับหลักสูตรปั้นคุณเป็น Software Developer ภายใน 4 เดือน
       </p>
-      <a href="https://www.techupth.com/" target="blank" className="link">
+      <a
+        href="https://www.techupth.com/"
+        target="blank"
+        className="article-link"
+      >
         techupth.com
       </a>
       <div className="bootcamp-start-time">
